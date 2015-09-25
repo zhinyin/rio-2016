@@ -1,0 +1,144 @@
+body {
+	font-family: helvetica, sans-serif;
+	font-size: 16px;
+	color:black;
+	border: 10px;
+	vertical-align: baseline;
+	margin: 100px;
+	line-height: 2.5em;
+	background-color: #F1EAD0;
+}
+
+.div {
+	font-size: 21px;
+	font-family: helvetica, sans-serif;
+}
+
+.one div {
+  background-color: #EB2221;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.two div {
+  background-color: #F5791D;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.three div {
+  background-color: #F8921E;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.four div {
+  background-color: #FBDB25;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.five div {
+  background-color: #AECD3F;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.six div {
+  background-color: #62BA4B;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.seven div {
+  background-color: #27AEE3;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.eight div {
+  background-color: #1E8ED7;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.nine div {
+  background-color: #1470BF;
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+
+.header div {
+	font-size: 60px;
+	padding: 50px;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	text-align: left;
+	color: #1470BF;
+	-webkit-transform: rotate(328deg);
+    -moz-transform: rotate(328deg);
+    -o-transform: rotate(328deg)
+}
+
+.place div {
+	font-size: 30px;
+	padding: 35px 50px 120px 50px;
+	text-align: right;
+	color: #62BA4B;
+	-webkit-transform: rotate(328deg);
+    -moz-transform: rotate(328deg);
+    -o-transform: rotate(328deg)
+}
+
+.intr div {
+	font-size: 20px;
+    text-transform: uppercase;
+	padding: 300px 200px 50px 10px;
+	list-style-type: none;
+	text-align: left;
+	color: #FBDB25;
+	-webkit-transform: rotate(343.5deg);
+    -moz-transform: rotate(343.5deg);
+    -o-transform: rotate(343.5deg)
+} 
+
+.list div {
+	font-size: 28px;
+	font-weight: bold;
+	padding:20px 20px 15px 20px;
+	color: #F5791D;
+}
+
+.events div {
+	font-size: 12px;
+	line-height: 20px;
+	list-style-type: none;
+	padding:0 20px 30px 20px;
+	color: #EB2221;
+}
+
+
+html {
+    background-color: white;
+    background-attachment: fixed;
+    width: 960px;
+}
