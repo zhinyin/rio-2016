@@ -3,9 +3,10 @@ body {
 	font-size: 16px;
 	border: 10px;
 	vertical-align: baseline;
-	margin: 100px;
 	line-height: 2.5em;
 	background-color: #F1EAD0;
+  background-attachment: fixed;
+  width: 960px;
 }
 
 .div {
@@ -13,89 +14,60 @@ body {
 	font-family: helvetica, sans-serif;
 }
 
-.one div {
+.box {
+  width: 60px;
+  height:60px;
+  margin: 30px 30px 20px 600px;
+  float: right;
+}
+
+.one {
   background-color: #EB2221;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.two div {
+.two  {
   background-color: #F5791D;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.three div {
+.three  {
   background-color: #F8921E;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.four div {
+.four {
   background-color: #FBDB25;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.five div {
+.five {
   background-color: #AECD3F;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.six div {
+.six {
   background-color: #62BA4B;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.seven div {
+.seven {
   background-color: #27AEE3;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.eight div {
+.eight {
   background-color: #1E8ED7;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
-.nine div {
+.nine {
   background-color: #1470BF;
-  width: 60px;
-  height:60px;
-  margin: 30px 30px 20px 600px;
-  float: right;
 }
 
 
 .header div {
 	font-size: 60px;
-	padding: 50px;
+	padding: 0 50px 120px 50px;
 	text-transform: uppercase;
 	line-height: 1.5em;
 	text-align: left;
 	color: #1470BF;
 	-webkit-transform: rotate(328deg);
-    -moz-transform: rotate(328deg);
-    -o-transform: rotate(328deg)
+  -moz-transform: rotate(328deg);
+  -o-transform: rotate(328deg)
 }
 
 .place div {
@@ -104,40 +76,41 @@ body {
 	text-align: right;
 	color: #62BA4B;
 	-webkit-transform: rotate(328deg);
-    -moz-transform: rotate(328deg);
-    -o-transform: rotate(328deg)
+  -moz-transform: rotate(328deg);
+  -o-transform: rotate(328deg)
 }
 
 .intr div {
 	font-size: 20px;
-    text-transform: uppercase;
-	padding: 300px 200px 50px 10px;
+  text-transform: uppercase;
+	padding: 700px 200px 50px 10px;
 	list-style-type: none;
 	text-align: left;
 	color: #FBDB25;
 	-webkit-transform: rotate(343.5deg);
-    -moz-transform: rotate(343.5deg);
-    -o-transform: rotate(343.5deg)
+  -moz-transform: rotate(343.5deg);
+  -o-transform: rotate(343.5deg)
 } 
 
-.list div {
-	font-size: 28px;
+.list div{
+	font-size: 33px;
 	font-weight: bold;
-	padding:20px 20px 15px 20px;
+	padding: 100px 20px 30px 20px;
 	color: #F5791D;
+  background-color: #F1EAD0;
+
+
+  
 }
 
 .events div {
-	font-size: 12px;
+	font-size: 18px;
 	line-height: 20px;
 	list-style-type: none;
 	padding:0 20px 30px 20px;
 	color: #EB2221;
+  background-color: #F1EAD0;
 }
 
 
-html {
-    background-color: white;
-    background-attachment: fixed;
-    width: 960px;
-}
+
